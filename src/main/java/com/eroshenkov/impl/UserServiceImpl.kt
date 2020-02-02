@@ -11,7 +11,7 @@ class UserServiceImpl : UserService {
 
     private val emailDictionary: MutableMap<String, String> = mutableMapOf()
 
-    val EMAIL_REGEX = "^[A-Za-z](.*)([@]{1})(.{1,})(\\.)(.{1,})";
+    private val EMAIL_REGEX = "^[A-Za-z](.*)([@]{1})(.{1,})(\\.)(.{1,})"
 
     override fun combineUsers(inputString: String?): String {
 

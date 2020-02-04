@@ -12,6 +12,6 @@ fun main(args: Array<String>) {
         input += "$newLine\n"
     }
 
-    val output = userService.combineUsers("")
+    val output = userService.combineUsers(input)
     print(output)
 }
